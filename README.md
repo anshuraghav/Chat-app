@@ -1,12 +1,35 @@
-# Simple chat application using React, Socket.io and Node.js
+# ChatApp - Client
 
-##### Simple Demo
+#### Relevant Libs/Frameworks that i'm using
 
-  https://react-socketio-nodejs-test-chatapp.surge.sh
+  - react
+  - redux
+  - redux-saga
+  - socket.io-client
+  - react-router
 
+# Commands
 
-![Demo](https://raw.githubusercontent.com/almeida-matheus/react-socketio-nodejs-chatapp/develop/layout/demo.gif)
+Run tests
+```sh
+$ npm run test
+```
 
+Run dev server
+```sh
+$ npm install
+$ npm start
+```
 
-##### XD Layout
-![XdLayout](https://raw.githubusercontent.com/almeida-matheus/react-socketio-nodejs-chatapp/develop/layout/xd.PNG)
+Creates a prod build
+```sh
+$ npm install
+$ npm run build
+```
+
+### Configuration
+Set your configurations (server uri) in config file
+
+```sh
+:root:/src/configs/(dev/prod).json
+```
